@@ -1,9 +1,9 @@
 yii2-dynamicform
 ===================
 
-[![Latest Version](https://img.shields.io/github/release/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://github.com/freimaurerei/yii2-dynamicform/releases)
+[![Latest Version](https://img.shields.io/github/release/freimaurerei/yii2-dynamicform.svg?style=flat-square)](https://github.com/freimaurerei/yii2-dynamicform/releases)
 [![Software License](http://img.shields.io/badge/license-BSD3-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://packagist.org/packages/freimaurerei/yii2-dynamicform)
+[![Total Downloads](https://img.shields.io/packagist/dt/freimaurerei/yii2-dynamicform.svg?style=flat-square)](https://packagist.org/packages/freimaurerei/yii2-dynamicform)
 
 
 It is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.
