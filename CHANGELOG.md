@@ -4,7 +4,7 @@ yii2-dynamicform change Log
 version 2.0.3a
 --------------
 **Date:** 4-Jan-2017
-- Enh: Updated composer.json ('symfony/dom-crawler': '~2.8' and 'symfony/css-selector': '~2.8|~3.0').
+- Enh: Updated composer.json ('symfony/dom-crawler': '~2.8|~3.0' and 'symfony/css-selector': '~2.8|~3.0').
 - Bug #40: Fixed dropDownList reset after insert item.
 - Enh #25: Added enhancements to better support for nested widgets.
 - Enh #24: Added support for "jquery.inputmask". It only works with Yii 2.0.4 or higher.
