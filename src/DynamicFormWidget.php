@@ -12,6 +12,7 @@ use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\base\InvalidConfigException;
 use Symfony\Component\DomCrawler\Crawler;
+use yii\web\View;
 
 /**
  * yii2-dynamicform is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.
@@ -216,7 +217,7 @@ class DynamicFormWidget extends \yii\base\Widget
         $js .= "});\n";
         $view->registerJs($js, $view::POS_READY);
 
-        $js = 'jQuery("#' . $this->formId . '").yiiDynamicForm(' . $this->_hashVar .');' . "\n";
+        $js = 'jQuery(function ($) { jQuery("#' . $this->formId . '").yiiDynamicForm(' . $this->_hashVar .');' . "\n})\n";
         $view->registerJs($js, $view::POS_LOAD);
     }
 
